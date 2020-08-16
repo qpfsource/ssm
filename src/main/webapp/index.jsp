@@ -12,5 +12,11 @@
 </head>
 <body>
 <a href="account/findAll">Spring测试</a>
+<h3>测试保存</h3>
+<form action="/account/save" method="post">
+    用户名:<input type="text" name="name"><br>
+    金 额:<input type="text" name="money"><br>
+    <input type="submit" value="提交">
+</form>
 </body>
 </html>
